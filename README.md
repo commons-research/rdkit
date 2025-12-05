@@ -6,6 +6,12 @@ the C++ API via bindings from [rdkit-sys](https://crates.io/crate/rdkit-sys).
 
 Notice: Requires rdkit 2023.09.1 or higher (like Ubuntu Noble 24.04)
 
+Examples
+---
+
+- `cargo run --example descriptors` shows how to compute descriptor maps and determine if a SMILES string is fully, partially, or not-at-all stereochemically specified using `NumAtomStereoCenters` and `NumUnspecifiedAtomStereoCenters`.
+- `cargo run --example tautomer_enumerator` demonstrates using the tautomer enumerator bindings.
+
 Prerequisites
 ---
 
